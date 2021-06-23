@@ -1,0 +1,25 @@
+:root {
+  --background-color: #373f51;
+  --font-size: 14px;
+  --font-size-lg: 28px;
+  --font-size-xlg: 40px;
+}
+
+body {
+  display: flex;
+}
+
+.map-view {
+  width: 65%;
+  height: 100%;
+}
+
+.info-view {
+  width: 35%;
+  height: 100%;
+  background: var(--background-color);
+}
+
+.map-view #map {
+  height: 100%;
+}
