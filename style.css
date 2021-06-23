@@ -18,8 +18,21 @@ body {
   width: 35%;
   height: 100%;
   background: var(--background-color);
+  padding: 40px;
 }
 
 .map-view #map {
   height: 100%;
+}
+
+.info-view .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-view .title img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
 }
